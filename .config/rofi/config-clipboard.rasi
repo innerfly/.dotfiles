@@ -1,0 +1,61 @@
+/* ---- 💫 https://github.com/JaKooLit 💫 ---- */
+/* Clipboard Config - Clipboard */
+
+@import "~/.config/rofi/config.rasi"  
+
+/* ---- Window ---- */
+window {
+  width: 36%;
+  height: inherit;
+  location: center;
+  border-radius: 12px;
+}
+
+/* ---- Mainbox ---- */
+mainbox {
+  padding: 14px;
+  children: [ "inputbar", "listview", "message" ];
+}
+
+/* ---- Entry ---- */
+entry {
+  width: inherit;
+  placeholder: "";
+  padding: 8px 10px;
+  border-radius: 8px;
+}
+
+/* ---- Listview ---- */
+listview {
+  columns: 1;
+  lines: 10;
+  fixed-height: true;
+  spacing: 8px;
+  cycle: true;
+}
+
+/* ---- Elements ---- */
+element {
+  orientation: horizontal;
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+
+element-icon {
+  size: 0%;
+}
+
+element-text {
+  horizontal-align: 0.0;
+  vertical-align: 0.5;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* ---- Message (note) ---- */
+message {
+  padding: 6px 8px;
+  border-radius: 8px;
+  font: "JetBrainsMono Nerd Font 14";
+  text-color: gray;
+}

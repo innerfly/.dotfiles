@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doublecmd>
+  <DirectoryHotList>
+    <HotDir Name="Home" Path="~/"/>
+    <HotDir Name="paygate" Path="~/Projects/paygate"/>
+    <HotDir Name="logs" Path="~/Projects/paygate/backend/logs"/>
+    <HotDir Name="Desktop" Path="~/Desktop"/>
+    <HotDir Name="Downloads" Path="~/Downloads"/>
+    <HotDir Name="Music" Path="~/Music"/>
+    <HotDir Name="Projects" Path="~/Projects"/>
+    <HotDir Name="Videos" Path="~/Videos"/>
+    <HotDir Name="Pictures" Path="~/Pictures/"/>
+    <HotDir Name="Yandex.Disk" Path="~/Yandex.Disk"/>
+    <HotDir Name="_youtube" Path="~/Yandex.Disk/_youtube"/>
+    <HotDir Name="Nextcloud" Path="~/Nextcloud"/>
+    <HotDir Name="-System" Path=""/>
+    <HotDir Name=".themes" Path="~/.themes"/>
+    <HotDir Name="extensions" Path="~/.local/share/gnome-shell/extensions"/>
+    <HotDir Name=".config" Path="~/.config"/>
+    <HotDir Name="extensions" Path="/usr/share/gnome-shell/extensions"/>
+    <HotDir Name="apt" Path="/etc/apt"/>
+    <HotDir Name="sources.list.d" Path="/etc/apt/sources.list.d"/>
+    <HotDir Name="--" Path=""/>
+  </DirectoryHotList>
+</doublecmd>

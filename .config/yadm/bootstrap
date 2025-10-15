@@ -1,0 +1,14 @@
+#!/bin/sh
+
+pacman -S yay
+yay -S yandex-disk
+yandex-disk setup
+
+cp $HOME/Yandex.Disk/config/.env $HOME/
+
+cp -r $HOME/Yandex.Disk/config/.ssh $HOME
+chmod 700 ~/Yandex.Disk/config/.ssh
+chmod 600 ~/Yandex.Disk/config/.ssh/id_rsa
+chmod 644 ~/Yandex.Disk/config/.ssh/id_rsa.pub
+chmod 644 ~/Yandex.Disk/config/.ssh/known_hosts
+chmod 644 ~/Yandex.Disk/config/.ssh/config

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doublecmd>
+  <FavoriteTabsList>
+    <FavoriteTabs UniqueID="{11963B8B-60D4-4CDE-BA02-89BE3A14BC62}" Name="Home" DestLeft="0" DestRight="1" ExistingKeep="5" SaveDirHistory="False"/>
+    <FavoriteTabs UniqueID="{93F331B6-3555-4B6B-8CF9-18691288D71E}" Name="Downloads" DestLeft="0" DestRight="1" ExistingKeep="5" SaveDirHistory="False"/>
+  </FavoriteTabsList>
+  <ActualTabs>
+    <GUID11963B8B-60D4-4CDE-BA02-89BE3A14BC62>
+      <Left>
+        <ActiveTab>0</ActiveTab>
+        <Tab>
+          <FileView Type="brief">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path>~/Projects/paygate/src/Utils/</Path>
+                </Paths>
+              </Entry>
+            </History>
+          </FileView>
+        </Tab>
+      </Left>
+      <Right>
+        <ActiveTab>0</ActiveTab>
+        <Tab>
+          <FileView Type="brief">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path>~/</Path>
+                </Paths>
+              </Entry>
+            </History>
+          </FileView>
+        </Tab>
+      </Right>
+    </GUID11963B8B-60D4-4CDE-BA02-89BE3A14BC62>
+    <GUID93F331B6-3555-4B6B-8CF9-18691288D71E>
+      <Left>
+        <ActiveTab>2</ActiveTab>
+        <Tab>
+          <FileView Type="brief">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path>~/</Path>
+                </Paths>
+              </Entry>
+            </History>
+          </FileView>
+          <Options>2</Options>
+          <LockPath>~/</LockPath>
+          <Title>om</Title>
+        </Tab>
+        <Tab>
+          <FileView Type="brief">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path>~/Yandex.Disk/</Path>
+                </Paths>
+              </Entry>
+            </History>
+          </FileView>
+          <Options>3</Options>
+          <LockPath>~/Yandex.Disk/</LockPath>
+          <Title>Yandex.Disk</Title>
+        </Tab>
+        <Tab>
+          <FileView Type="brief">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path>~/Yandex.Disk/_media/</Path>
+                </Paths>
+              </Entry>
+            </History>
+          </FileView>
+        </Tab>
+      </Left>
+      <Right>
+        <ActiveTab>1</ActiveTab>
+        <Tab>
+          <FileView Type="brief">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path>~/</Path>
+                </Paths>
+              </Entry>
+            </History>
+          </FileView>
+          <Options>2</Options>
+          <LockPath>~/</LockPath>
+          <Title>om</Title>
+        </Tab>
+        <Tab>
+          <FileView Type="brief">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path>~/Downloads/</Path>
+                </Paths>
+              </Entry>
+            </History>
+          </FileView>
+          <Options>3</Options>
+          <LockPath>~/Downloads/</LockPath>
+          <Title>Downloads</Title>
+        </Tab>
+        <Tab>
+          <FileView Type="brief">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path>~/Yandex.Disk/</Path>
+                </Paths>
+              </Entry>
+            </History>
+          </FileView>
+          <Options>2</Options>
+          <LockPath>~/Yandex.Disk/</LockPath>
+          <Title>Yandex.Disk</Title>
+        </Tab>
+        <Tab>
+          <FileView Type="brief">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path>~/Yandex.Disk/_media/</Path>
+                </Paths>
+              </Entry>
+            </History>
+          </FileView>
+          <Options>3</Options>
+          <LockPath>~/Yandex.Disk/_media/</LockPath>
+          <Title>_media</Title>
+        </Tab>
+        <Tab>
+          <FileView Type="brief">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path>/</Path>
+                </Paths>
+              </Entry>
+            </History>
+          </FileView>
+        </Tab>
+      </Right>
+    </GUID93F331B6-3555-4B6B-8CF9-18691288D71E>
+  </ActualTabs>
+</doublecmd>

@@ -1,0 +1,146 @@
+// ### Innerfly ### //
+{
+	"include": [
+		"$HOME/.config/waybar/Modules",
+		"$HOME/.config/waybar/ModulesWorkspaces",
+		"$HOME/.config/waybar/ModulesCustom",
+		"$HOME/.config/waybar/ModulesGroups",
+		"$HOME/.config/waybar/UserModules"
+	],
+	"layer": "top",
+	"exclusive": true,
+	"passthrough": false,
+	"position": "top",
+	"fixed-center": true,
+	"ipc": true,
+	"modules-left": [
+		"hyprland/workspaces#numbers",
+		"custom/delimiter",
+        "custom/window_mode",
+		"hyprland/window",
+	],
+	"modules-center": [
+		"clock#forest",
+        "custom/delimiter",
+        "custom/weather",
+        "custom/delimiter",
+	],
+	"modules-right": [
+        "tray",
+        "group/notify",
+        "custom/delimiter",
+        "cpu#forest",
+		"memory#forest",
+		"backlight#2",
+		"group/audio",
+		"network",
+		"battery#forest",
+		"power-profiles-daemon",
+		"hyprland/language",
+	],
+	"clock#forest": {
+		"format": "{:%a %d.%m %H:%M}",
+		"tooltip-format": "<span color='#D3C6AA' size='larger'>{:%Y %B}</span>\n<tt>{calendar}</tt>",
+		"calendar-weeks-pos": "right",
+		"today-format": "<span color='#E67E80' weight='ultrabold'>{}</span>",
+		"format-calendar": "<span color='#D3C6AA' weight='normal'>{}</span>",
+		"format-calendar-weeks": "<span color='#7FBBB3'><b>W{:%V}</b></span>",
+		"format-calendar-weekdays": "<span color='#A7C080'><b>{}</b></span>",
+		"on-scroll": {
+			"calendar": 1
+		}
+	},
+	"battery#forest": {
+		"align": 0,
+		"rotate": 0,
+		"full-at": 100,
+		"design-capacity": false,
+		"states": {
+			"good": 95,
+			"warning": 30,
+			"critical": 15
+		},
+		"format": " {icon} {capacity}%",
+		"format-charging": "  {capacity}%",
+		"format-plugged": " 󱘖 {capacity}%",
+		"format-alt-click": "click",
+		//"format-full": " {icon} Full",
+		"format-alt": " {icon} {time}",
+		"format-icons": [
+			"󰂎",
+			"󰁺",
+			"󰁻",
+			"󰁼",
+			"󰁽",
+			"󰁾",
+			"󰁿",
+			"󰂀",
+			"󰂁",
+			"󰂂",
+			"󰁹"
+		],
+		"format-time": "{H}h {M}min",
+	},
+	"cpu#forest": {
+		"format": "󰍛 {usage}%",
+		"interval": 1,
+		"min-length": 5,
+		"format-alt-click": "click",
+		"format-alt": "{icon0}{icon1}{icon2}{icon3} {usage:>2}% 󰍛",
+		"format-icons": [
+			"▁",
+			"▂",
+			"▃",
+			"▄",
+			"▅",
+			"▆",
+			"▇",
+			"█"
+		],
+		"on-click-right": "gnome-system-monitor",
+	},
+	"memory#forest": {
+		"interval": 10,
+		"format": " 󰾆 {used:0.1f}G",
+		"format-alt": "{percentage}%    󰾆",
+		"format-alt-click": "click",
+		"tooltip": true,
+		"tooltip-format": "Ram    {used:0.1f}GB/{total:0.1f}G",
+		"on-click-right": "kitty --title btop sh -c 'btop'"
+	},
+	"power-profiles-daemon": {
+		"format": "{icon} ", // "{icon} {profile}"
+		"tooltip-format": "Power profile: {profile}\nDriver: {driver}",
+		"tooltip": true,
+		"format-icons": {
+			"performance": "",
+			"balanced": "",
+			"power-saver": ""
+		}
+	},
+    "hyprland/window": {
+        "format": " {} ",
+        "icon": true,
+        "icon-size": 22,
+        "tooltip": true,
+        "max-length": 18,
+    },
+    "custom/window_mode": {
+        "exec": "$HOME/.config/hypr/UserScripts/window_mode.sh",
+        "interval": 1,
+        "return-type": "string",
+        "format": " {} ",
+        "tooltip": false
+    },
+    "hyprland/language": {
+        "format": " {} ",
+        "format-en": "🇺🇸 EN",
+        "format-ru": "🇷🇺 RU",
+        "tooltip": true,
+        "on-click": "hyprctl switchxkblayout at-translated-set-2-keyboard next"
+    },
+    "custom/delimiter": {
+        "format": "  ",
+        "tooltip": false
+    },
+}

@@ -1,0 +1,304 @@
+--------------- 24-04-2023, 19:50:16 ---------------
+| DC v1.0.10 Rev. 239 -- x86_64-Linux-gtk2
+| Ubuntu 23.04 -- GTK 2.24.33 | PID 33379
+Unhandled exception: EDivByZero: Division by zero
+  Stack trace:
+  $00000000005A0C8B line 50, column 7 of laztracer.pas in /usr/lib/doublecmd/doublecmd
+  $00000000005F129F line 3547, column 30 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $00000000005FEAA5 line 393, column 9 of include/control.inc in /usr/lib/doublecmd/doublecmd
+  $00000000005FEA61 line 388, column 7 of include/control.inc in /usr/lib/doublecmd/doublecmd
+  $00000000005FEA61 line 388, column 7 of include/control.inc in /usr/lib/doublecmd/doublecmd
+  $00000000005FEA61 line 388, column 7 of include/control.inc in /usr/lib/doublecmd/doublecmd
+  $00000000005FEA61 line 388, column 7 of include/control.inc in /usr/lib/doublecmd/doublecmd
+  $00000000005F1A3B line 3733, column 5 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $00000000005F9438 line 7092, column 5 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000433DDA in /usr/lib/doublecmd/doublecmd
+  $00000000005F5A65 line 5429, column 28 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $000000000079AE68 line 112, column 36 of lclmessageglue.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000779D65 line 3777, column 68 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $000000000077F7F9 line 6714, column 26 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000789C8B line 2516, column 3 of gtk2callback.inc in /usr/lib/doublecmd/doublecmd
+  $00007F1052C76010 in /lib/x86_64-linux-gnu/libgobject-2.0.so.0
+
+--------------- 27-08-2023, 09:28:25 ---------------
+| DC v1.0.10 Rev. 239 -- x86_64-Linux-gtk2
+| Ubuntu 23.04 -- GTK 2.24.33 | PID 12344
+Unhandled exception: EDivByZero: Division by zero
+  Stack trace:
+  $00000000005A0C8B line 50, column 7 of laztracer.pas in /usr/lib/doublecmd/doublecmd
+  $00000000005F129F line 3547, column 30 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $00000000005FEAA5 line 393, column 9 of include/control.inc in /usr/lib/doublecmd/doublecmd
+  $00000000005FEA61 line 388, column 7 of include/control.inc in /usr/lib/doublecmd/doublecmd
+  $00000000005FEA61 line 388, column 7 of include/control.inc in /usr/lib/doublecmd/doublecmd
+  $00000000005FEA61 line 388, column 7 of include/control.inc in /usr/lib/doublecmd/doublecmd
+  $00000000005FEA61 line 388, column 7 of include/control.inc in /usr/lib/doublecmd/doublecmd
+  $00000000005F1A3B line 3733, column 5 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $00000000005F9438 line 7092, column 5 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000433DDA in /usr/lib/doublecmd/doublecmd
+  $00000000005F5A65 line 5429, column 28 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $000000000079AE68 line 112, column 36 of lclmessageglue.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000779D65 line 3777, column 68 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $000000000077F7F9 line 6714, column 26 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000789C8B line 2516, column 3 of gtk2callback.inc in /usr/lib/doublecmd/doublecmd
+  $00007F073054C010 in /lib/x86_64-linux-gnu/libgobject-2.0.so.0
+
+--------------- 24-09-2023, 18:01:53 ---------------
+| DC v1.0.10 Rev. 239 -- x86_64-Linux-gtk2
+| Ubuntu 23.04 -- GTK 2.24.33 | PID 50274
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F581F07537B in /lib/x86_64-linux-gnu/libgtk-x11-2.0.so.0
+
+--------------- 24-09-2023, 18:01:53 ---------------
+| DC v1.0.10 Rev. 239 -- x86_64-Linux-gtk2
+| Ubuntu 23.04 -- GTK 2.24.33 | PID 50274
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F581EBE287C in /lib/x86_64-linux-gnu/libgobject-2.0.so.0
+
+--------------- 03-02-2024, 05:15:44 ---------------
+| DC v1.1.3 beta Rev. 100 -- x86_64-Linux-gtk2
+| Ubuntu 23.10 -- GTK 2.24.33 | PID 9595
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $0000000000A415CB line 752, column 17 of platform/ufilesystemwatcher.pas in /usr/lib/doublecmd/doublecmd
+
+
+--------------- 03-02-2024, 05:24:12 ---------------
+| DC v1.1.3 beta Rev. 100 -- x86_64-Linux-gtk2
+| Ubuntu 23.10 -- GTK 2.24.33 | PID 59406
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $0000000000A415CB line 752, column 17 of platform/ufilesystemwatcher.pas in /usr/lib/doublecmd/doublecmd
+
+
+--------------- 26-04-2024, 11:08:38 ---------------
+| DC v1.1.13 gamma Rev. 453 -- x86_64-Linux-gtk2
+| Ubuntu 24.04 LTS -- GTK 2.24.33 | PID 12742
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007A460C0C301C in /lib/x86_64-linux-gnu/libgdk-x11-2.0.so.0
+  $00000000007885A8 line 8491, column 42 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $000000000077A782 line 1570, column 18 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $000000000077A695 line 1658, column 9 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $00000000007953B2 line 1165, column 3 of gtk2devicecontext.inc in /usr/lib/doublecmd/doublecmd
+  $00000000007951A9 line 1114, column 5 of gtk2devicecontext.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000795103 line 1099, column 26 of gtk2devicecontext.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000477195 line 7990, column 26 of gtk2winapi.inc in /usr/lib/doublecmd/doublecmd
+  $00000000005DA009 line 925, column 22 of include/winapi.inc in /usr/lib/doublecmd/doublecmd
+  $00000000006332E6 line 1661, column 44 of include/canvas.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000633635 line 1755, column 3 of include/canvas.inc in /usr/lib/doublecmd/doublecmd
+  $00000000007BE5EF line 4406, column 13 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $00000000007BE242 line 4438, column 9 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $00000000007BDFA6 line 4358, column 7 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $00000000007BC2F5 line 3850, column 5 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $00000000006134B9 line 123, column 5 of include/customcontrol.inc in /usr/lib/doublecmd/doublecmd
+  $00000000005F9460 line 4861, column 7 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+
+--------------- 26-04-2024, 11:09:08 ---------------
+| DC v1.1.13 gamma Rev. 453 -- x86_64-Linux-gtk2
+| Ubuntu 24.04 LTS -- GTK 2.24.33 | PID 12742
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007A460C0C301C in /lib/x86_64-linux-gnu/libgdk-x11-2.0.so.0
+  $00000000007885A8 line 8491, column 42 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $000000000077A782 line 1570, column 18 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $000000000077A695 line 1658, column 9 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $00000000007953B2 line 1165, column 3 of gtk2devicecontext.inc in /usr/lib/doublecmd/doublecmd
+  $00000000007951A9 line 1114, column 5 of gtk2devicecontext.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000795103 line 1099, column 26 of gtk2devicecontext.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000477195 line 7990, column 26 of gtk2winapi.inc in /usr/lib/doublecmd/doublecmd
+  $00000000005DA009 line 925, column 22 of include/winapi.inc in /usr/lib/doublecmd/doublecmd
+  $00000000006332E6 line 1661, column 44 of include/canvas.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000633635 line 1755, column 3 of include/canvas.inc in /usr/lib/doublecmd/doublecmd
+  $00000000007BE5EF line 4406, column 13 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $00000000007BE242 line 4438, column 9 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $00000000007BDFA6 line 4358, column 7 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $00000000007BC2F5 line 3850, column 5 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $00000000006134B9 line 123, column 5 of include/customcontrol.inc in /usr/lib/doublecmd/doublecmd
+  $00000000005F9460 line 4861, column 7 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+
+--------------- 26-04-2024, 11:09:12 ---------------
+| DC v1.1.13 gamma Rev. 453 -- x86_64-Linux-gtk2
+| Ubuntu 24.04 LTS -- GTK 2.24.33 | PID 12742
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007A460C0C301C in /lib/x86_64-linux-gnu/libgdk-x11-2.0.so.0
+  $00000000007885A8 line 8491, column 42 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $000000000077A782 line 1570, column 18 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $000000000077A695 line 1658, column 9 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $00000000007953B2 line 1165, column 3 of gtk2devicecontext.inc in /usr/lib/doublecmd/doublecmd
+  $00000000007951A9 line 1114, column 5 of gtk2devicecontext.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000795103 line 1099, column 26 of gtk2devicecontext.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000477195 line 7990, column 26 of gtk2winapi.inc in /usr/lib/doublecmd/doublecmd
+  $00000000005DA009 line 925, column 22 of include/winapi.inc in /usr/lib/doublecmd/doublecmd
+  $00000000006332E6 line 1661, column 44 of include/canvas.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000633635 line 1755, column 3 of include/canvas.inc in /usr/lib/doublecmd/doublecmd
+  $00000000007BE5EF line 4406, column 13 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $00000000007BE242 line 4438, column 9 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $00000000007BDFA6 line 4358, column 7 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $00000000007BC2F5 line 3850, column 5 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $00000000006134B9 line 123, column 5 of include/customcontrol.inc in /usr/lib/doublecmd/doublecmd
+  $00000000005F9460 line 4861, column 7 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+
+--------------- 26-04-2024, 11:09:15 ---------------
+| DC v1.1.13 gamma Rev. 453 -- x86_64-Linux-gtk2
+| Ubuntu 24.04 LTS -- GTK 2.24.33 | PID 12742
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007A460C0C301C in /lib/x86_64-linux-gnu/libgdk-x11-2.0.so.0
+  $00000000007885A8 line 8491, column 42 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $000000000077A782 line 1570, column 18 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $000000000077A695 line 1658, column 9 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $00000000007953B2 line 1165, column 3 of gtk2devicecontext.inc in /usr/lib/doublecmd/doublecmd
+  $00000000007951A9 line 1114, column 5 of gtk2devicecontext.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000795103 line 1099, column 26 of gtk2devicecontext.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000477195 line 7990, column 26 of gtk2winapi.inc in /usr/lib/doublecmd/doublecmd
+  $00000000005DA009 line 925, column 22 of include/winapi.inc in /usr/lib/doublecmd/doublecmd
+  $00000000006332E6 line 1661, column 44 of include/canvas.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000633635 line 1755, column 3 of include/canvas.inc in /usr/lib/doublecmd/doublecmd
+  $00000000007BE5EF line 4406, column 13 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $00000000007BE242 line 4438, column 9 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $00000000007BDFA6 line 4358, column 7 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $00000000007BC2F5 line 3850, column 5 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $00000000006134B9 line 123, column 5 of include/customcontrol.inc in /usr/lib/doublecmd/doublecmd
+  $00000000005F9460 line 4861, column 7 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+
+--------------- 26-04-2024, 14:56:43 ---------------
+| DC v1.1.13 gamma Rev. 453 -- x86_64-Linux-gtk2
+| Ubuntu 24.04 LTS -- GTK 2.24.33 | PID 65943
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007EF14158401C in /lib/x86_64-linux-gnu/libgdk-x11-2.0.so.0
+  $00000000007885A8 line 8491, column 42 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $000000000077A782 line 1570, column 18 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $000000000077A695 line 1658, column 9 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $00000000007953B2 line 1165, column 3 of gtk2devicecontext.inc in /usr/lib/doublecmd/doublecmd
+  $00000000007951A9 line 1114, column 5 of gtk2devicecontext.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000795103 line 1099, column 26 of gtk2devicecontext.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000477195 line 7990, column 26 of gtk2winapi.inc in /usr/lib/doublecmd/doublecmd
+  $00000000005DA009 line 925, column 22 of include/winapi.inc in /usr/lib/doublecmd/doublecmd
+  $00000000006332E6 line 1661, column 44 of include/canvas.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000633635 line 1755, column 3 of include/canvas.inc in /usr/lib/doublecmd/doublecmd
+  $00000000007BE5EF line 4406, column 13 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $00000000007BE242 line 4438, column 9 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $00000000007BDFA6 line 4358, column 7 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $00000000007BC2F5 line 3850, column 5 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $00000000006134B9 line 123, column 5 of include/customcontrol.inc in /usr/lib/doublecmd/doublecmd
+  $00000000005F9460 line 4861, column 7 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+
+--------------- 26-04-2024, 14:56:54 ---------------
+| DC v1.1.13 gamma Rev. 453 -- x86_64-Linux-gtk2
+| Ubuntu 24.04 LTS -- GTK 2.24.33 | PID 65943
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007EF14158401C in /lib/x86_64-linux-gnu/libgdk-x11-2.0.so.0
+  $00000000007885A8 line 8491, column 42 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $000000000077A782 line 1570, column 18 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $000000000077A695 line 1658, column 9 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $00000000007953B2 line 1165, column 3 of gtk2devicecontext.inc in /usr/lib/doublecmd/doublecmd
+  $00000000007951A9 line 1114, column 5 of gtk2devicecontext.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000795103 line 1099, column 26 of gtk2devicecontext.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000477195 line 7990, column 26 of gtk2winapi.inc in /usr/lib/doublecmd/doublecmd
+  $00000000005DA009 line 925, column 22 of include/winapi.inc in /usr/lib/doublecmd/doublecmd
+  $00000000006332E6 line 1661, column 44 of include/canvas.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000633635 line 1755, column 3 of include/canvas.inc in /usr/lib/doublecmd/doublecmd
+  $00000000007BE5EF line 4406, column 13 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $00000000007BE242 line 4438, column 9 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $00000000007BDFA6 line 4358, column 7 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $00000000007BC2F5 line 3850, column 5 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $00000000006134B9 line 123, column 5 of include/customcontrol.inc in /usr/lib/doublecmd/doublecmd
+  $00000000005F9460 line 4861, column 7 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+
+--------------- 28-04-2024, 07:35:21 ---------------
+| DC v1.1.13 gamma Rev. 453 -- x86_64-Linux-gtk2
+| Ubuntu 24.04 LTS -- GTK 2.24.33 | PID 304197
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007B052754C01C in /lib/x86_64-linux-gnu/libgdk-x11-2.0.so.0
+  $00000000007885A8 line 8491, column 42 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $000000000077A782 line 1570, column 18 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $000000000077A695 line 1658, column 9 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $00000000007953B2 line 1165, column 3 of gtk2devicecontext.inc in /usr/lib/doublecmd/doublecmd
+  $00000000007951A9 line 1114, column 5 of gtk2devicecontext.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000795103 line 1099, column 26 of gtk2devicecontext.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000477195 line 7990, column 26 of gtk2winapi.inc in /usr/lib/doublecmd/doublecmd
+  $00000000005DA009 line 925, column 22 of include/winapi.inc in /usr/lib/doublecmd/doublecmd
+  $00000000006332E6 line 1661, column 44 of include/canvas.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000633635 line 1755, column 3 of include/canvas.inc in /usr/lib/doublecmd/doublecmd
+  $00000000007BE5EF line 4406, column 13 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $00000000007BE242 line 4438, column 9 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $00000000007BDFA6 line 4358, column 7 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $00000000007BC2F5 line 3850, column 5 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $00000000006134B9 line 123, column 5 of include/customcontrol.inc in /usr/lib/doublecmd/doublecmd
+  $00000000005F9460 line 4861, column 7 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+
+--------------- 28-04-2024, 07:48:58 ---------------
+| DC v1.1.13 gamma Rev. 453 -- x86_64-Linux-gtk2
+| Ubuntu 24.04 LTS -- GTK 2.24.33 | PID 310859
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007A36D2AAD01C in /lib/x86_64-linux-gnu/libgdk-x11-2.0.so.0
+  $00000000007885A8 line 8491, column 42 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $000000000077A782 line 1570, column 18 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $000000000077A695 line 1658, column 9 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $00000000007953B2 line 1165, column 3 of gtk2devicecontext.inc in /usr/lib/doublecmd/doublecmd
+  $00000000007951A9 line 1114, column 5 of gtk2devicecontext.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000795103 line 1099, column 26 of gtk2devicecontext.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000477195 line 7990, column 26 of gtk2winapi.inc in /usr/lib/doublecmd/doublecmd
+  $00000000005DA009 line 925, column 22 of include/winapi.inc in /usr/lib/doublecmd/doublecmd
+  $00000000006332E6 line 1661, column 44 of include/canvas.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000633635 line 1755, column 3 of include/canvas.inc in /usr/lib/doublecmd/doublecmd
+  $00000000007BE5EF line 4406, column 13 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $00000000007BE242 line 4438, column 9 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $00000000007BDFA6 line 4358, column 7 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $00000000007BC2F5 line 3850, column 5 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $00000000006134B9 line 123, column 5 of include/customcontrol.inc in /usr/lib/doublecmd/doublecmd
+  $00000000005F9460 line 4861, column 7 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+
+--------------- 28-04-2024, 07:49:02 ---------------
+| DC v1.1.13 gamma Rev. 453 -- x86_64-Linux-gtk2
+| Ubuntu 24.04 LTS -- GTK 2.24.33 | PID 310859
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007A36D2AAD01C in /lib/x86_64-linux-gnu/libgdk-x11-2.0.so.0
+  $00000000007885A8 line 8491, column 42 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $000000000077A782 line 1570, column 18 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $000000000077A695 line 1658, column 9 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $00000000007953B2 line 1165, column 3 of gtk2devicecontext.inc in /usr/lib/doublecmd/doublecmd
+  $00000000007951A9 line 1114, column 5 of gtk2devicecontext.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000795103 line 1099, column 26 of gtk2devicecontext.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000477195 line 7990, column 26 of gtk2winapi.inc in /usr/lib/doublecmd/doublecmd
+  $00000000005DA009 line 925, column 22 of include/winapi.inc in /usr/lib/doublecmd/doublecmd
+  $00000000006332E6 line 1661, column 44 of include/canvas.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000633635 line 1755, column 3 of include/canvas.inc in /usr/lib/doublecmd/doublecmd
+  $00000000007BE5EF line 4406, column 13 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $00000000007BE242 line 4438, column 9 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $00000000007BDFA6 line 4358, column 7 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $00000000007BC2F5 line 3850, column 5 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $00000000006134B9 line 123, column 5 of include/customcontrol.inc in /usr/lib/doublecmd/doublecmd
+  $00000000005F9460 line 4861, column 7 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+
+--------------- 23-07-2025, 15:21:00 ---------------
+| DC v1.1.22 gamma Rev. 662 -- x86_64-Linux-gtk2
+| Ubuntu 25.04 -- GTK 2.24.33 | PID 10689
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $0000000000430FC2 in /usr/lib/doublecmd/doublecmd
+  $0000000000790C8E line 5881, column 3 of include/treeview.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000648DFA line 2344, column 40 of include/control.inc in /usr/lib/doublecmd/doublecmd
+  $00000000006494F0 line 2543, column 22 of include/control.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000431D2A in /usr/lib/doublecmd/doublecmd
+  $000000000063AD1E line 5434, column 28 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $00000000007C44A8 line 114, column 36 of lclmessageglue.pas in /usr/lib/doublecmd/doublecmd
+  $00000000007A2B95 line 3776, column 68 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $00000000007B1FA3 line 2087, column 15 of gtk2callback.inc in /usr/lib/doublecmd/doublecmd
+  $00000000007B15F5 line 1825, column 6 of gtk2callback.inc in /usr/lib/doublecmd/doublecmd
+  $0000734CC1E6C8C0 in /lib/x86_64-linux-gnu/libgtk-x11-2.0.so.0
+  $0000734CC1AAF299 in /lib/x86_64-linux-gnu/libgobject-2.0.so.0
+  $0000734CC1AE8C73 in /lib/x86_64-linux-gnu/libgobject-2.0.so.0
+  $0000734CC1AD3BA9 in /lib/x86_64-linux-gnu/libgobject-2.0.so.0
+  $0000734CC1AD4831 in /lib/x86_64-linux-gnu/libgobject-2.0.so.0
+  $0000734CC1AD48F3 in /lib/x86_64-linux-gnu/libgobject-2.0.so.0
+  $0000734CC1FAF3DC in /lib/x86_64-linux-gnu/libgtk-x11-2.0.so.0
+

@@ -1,0 +1,4 @@
+ENTRY "Home" URL "~"
+ENTRY "Downloads" URL "~/Downloads"
+ENTRY "Desktop" URL "~/Desktop"
+ENTRY "Yandex.Disk" URL "~/Yandex.Disk"

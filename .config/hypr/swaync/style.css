@@ -1,0 +1,26 @@
+/* SwayNC style overrides placed under Hypr config repo */
+
+/* Font: SF Pro (with fallbacks), size 14px */
+window#notifications,
+window#control-center {
+    font-family: "SF Pro", "SF Pro Display", "SF Pro Text", "San Francisco", system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", "Liberation Sans", Arial, sans-serif;
+    font-size: 18px;
+}
+
+/* Make notification popups wider (apply regardless of hierarchy) */
+window#notifications .notification,
+window#notifications .notification-row,
+window#notifications .widget {
+    min-width: 600px;
+    max-width: 900px;
+}
+
+/* Tighten content spacing a bit */
+.notification .summary, .notification .body {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 5px 10px;
+    font-size: 22px;
+    min-width: 600px;
+    max-width: 900px;
+}
