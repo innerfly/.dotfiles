@@ -33,7 +33,7 @@ alias wk='curl wttr.in/kimry'
 alias m='micro'
 alias n='nvim'
 alias ws='webstorm'
-alias yt='yt-dlp --format bestaudio -x --audio-format mp3 \
+alias yt='yt-dlp --format bestaudio --extract-audio --audio-format mp3 \
     -o "$YD/_media/%(title)s [%(id)s].%(ext)s" \
     --cookies-from-browser chrome \
     --proxy "$PROXY_HTTPS"'
