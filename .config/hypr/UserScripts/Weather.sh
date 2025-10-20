@@ -94,4 +94,7 @@ echo -e "{\"text\":\""$temperature $condition"\", \"alt\":\""${weather[0]}"\", \
 
 cached_weather=" $temperature  \n$condition ${weather[1]}"
 
-echo -e $cached_weather >  "$HOME/.cache/.weather_cache"
+# Only write the cache if we actually have data
+if [ -n "$temperature" ] || [ -n "${weather[1]}" ]; then
+    echo -e "$cached_weather" > "$HOME/.cache/.weather_cache"
+fi
