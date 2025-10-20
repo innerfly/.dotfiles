@@ -10,6 +10,8 @@ if [ -f "$YD/config/.env" ]; then
 fi
 
 city="$CITY"
+weather_expire="$WEATHER_EXPIRE"
+
 cachedir="$HOME/.cache/rbn"
 cachefile=${0##*/}-$1
 
@@ -27,7 +29,7 @@ SAVEIFS=$IFS
 IFS=$'\n'
 
 cacheage=$(($(date +%s) - $(stat -c '%Y' "$cachedir/$cachefile")))
-if [ $cacheage -gt 1740 ] || [ ! -s $cachedir/$cachefile ]; then
+if [ $cacheage -gt "$weather_expire" ] || [ ! -s $cachedir/$cachefile ]; then
     data=($(curl -s https://en.wttr.in/"$city"$1\?0qnT 2>&1))
     echo ${data[0]} | cut -f1 -d, > $cachedir/$cachefile
     echo ${data[1]} | sed -E 's/^.{15}//' >> $cachedir/$cachefile
@@ -87,6 +89,8 @@ esac
 #echo $temp $condition
 
 echo -e "{\"text\":\""$temperature $condition"\", \"alt\":\""${weather[0]}"\", \"tooltip\":\""${weather[0]}: $temperature ${weather[1]}"\"}"
+
+
 
 cached_weather=" $temperature  \n$condition ${weather[1]}"
 
