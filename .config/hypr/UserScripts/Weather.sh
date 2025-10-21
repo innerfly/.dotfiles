@@ -12,7 +12,7 @@ fi
 city="$CITY"
 weather_expire="$WEATHER_EXPIRE"
 
-cachedir="$HOME/.cache/rbn"
+cachedir="$HOME/.cache"
 cachefile=${0##*/}-$1
 
 if [ ! -d $cachedir ]; then
@@ -92,7 +92,7 @@ echo -e "{\"text\":\""$temperature $condition"\", \"alt\":\""${weather[0]}"\", \
 
 
 
-cached_weather=" $temperature  \n$condition ${weather[1]}"
+cached_weather=" $temperature \n$condition ${weather[1]}"
 
 # Only write the cache if we actually have data
 if [ -n "$temperature" ] || [ -n "${weather[1]}" ]; then
