@@ -43,7 +43,7 @@ alias i='yay -S'
 alias r='yay -Rcs'
 alias u='yay -Syu'
 alias up='all_proxy=$PROXY_HTTP ALL_PROXY=$PROXY_HTTP yay -Syu'
-alias yp='yay -Qq > $YD/config/packages.txt \
+alias yp='yay -Qq > $YD/config/packages_$(hostname -s).txt \
     && yadm commit -a -m "Update: $(date +\"%Y-%m-%d\ %H:%M:%S\")" \
     && yadm push \
     && echo "---------" \
