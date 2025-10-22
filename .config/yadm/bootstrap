@@ -5,6 +5,7 @@ yay -S yandex-disk
 yandex-disk setup
 
 cp $HOME/Yandex.Disk/config/.env $HOME/
+cp $HOME/Yandex.Disk/doublecmd/tabs.xml $HOME/.config/doublecmd/
 
 cp -r $HOME/Yandex.Disk/config/.ssh $HOME
 chmod 700 ~/Yandex.Disk/config/.ssh
