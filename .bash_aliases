@@ -13,6 +13,7 @@ alias hs='history'
 alias dl='cd ~/Downloads'
 alias yd="cd $YD"
 alias yds='yandex-disk status'
+alias ydr='yandex-disk stop && yandex-disk start'
 alias app='cd ~/Apps'
 alias pro='cd ~/Projects'
 alias conf='cd ~/.config'
