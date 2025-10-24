@@ -13,7 +13,7 @@ print_icon() {
 
 # Query Hyprland for active window JSON
 json=$(hyprctl activewindow -j 2>/dev/null)
-if [[ -z "$json" || "$json" == "null" ]]; then
+if [[ -z "$json" || "$json" == "null" || "$json" == "{}" ]]; then
   # No active window
   echo ""
   exit 0
