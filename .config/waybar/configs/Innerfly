@@ -20,7 +20,7 @@
 		"hyprland/window",
 	],
 	"modules-center": [
-		"clock#forest",
+		"clock",
         "custom/delimiter",
         "custom/weather",
         "custom/delimiter",
@@ -38,17 +38,12 @@
 		"power-profiles-daemon",
 		"hyprland/language",
 	],
-	"clock#forest": {
+	"clock": {
 		"format": "{:%a %d.%m %H:%M}",
-		"tooltip-format": "<span color='#D3C6AA' size='larger'>{:%Y %B}</span>\n<tt>{calendar}</tt>",
-		"calendar-weeks-pos": "right",
+		"tooltip-format": "<tt><small>{calendar}</small></tt>",
 		"today-format": "<span color='#E67E80' weight='ultrabold'>{}</span>",
-		"format-calendar": "<span color='#D3C6AA' weight='normal'>{}</span>",
-		"format-calendar-weeks": "<span color='#7FBBB3'><b>W{:%V}</b></span>",
-		"format-calendar-weekdays": "<span color='#A7C080'><b>{}</b></span>",
-		"on-scroll": {
-			"calendar": 1
-		}
+		"on-scroll": { "calendar": 1 },
+		"on-double-click": "kitty --title time sh -c 'tty-clock -c'"
 	},
 	"battery#forest": {
 		"align": 0,
