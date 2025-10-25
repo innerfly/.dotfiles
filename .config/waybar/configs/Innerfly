@@ -29,7 +29,7 @@
         "tray",
         "group/notify",
         "custom/delimiter",
-        "cpu#forest",
+        "cpu",
 		"memory#forest",
 		"backlight#2",
 		"group/audio",
@@ -81,22 +81,13 @@
 		],
 		"format-time": "{H}h {M}min",
 	},
-	"cpu#forest": {
-		"format": "󰍛 {usage}%",
+	"cpu": {
 		"interval": 1,
 		"min-length": 5,
+		"format": "{icon0}{icon1}{icon2}{icon3} {usage:>2}% 󰍛",
+		"format-alt": "󰍛 {usage}%",
 		"format-alt-click": "click",
-		"format-alt": "{icon0}{icon1}{icon2}{icon3} 󰍛{usage:>2}%",
-		"format-icons": [
-			"▁",
-			"▂",
-			"▃",
-			"▄",
-			"▅",
-			"▆",
-			"▇",
-			"█"
-		],
+	    "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"],
 		"on-click-right": "gnome-system-monitor",
 	},
 	"memory#forest": {
