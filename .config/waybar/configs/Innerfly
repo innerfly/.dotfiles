@@ -114,7 +114,8 @@
         "icon": true,
         "icon-size": 22,
         "tooltip": true,
-        "max-length": 18,
+        //"max-length": 18,
+        "expand": true,
     },
     "custom/window_mode": {
         "exec": "$HOME/.config/hypr/UserScripts/window_mode.sh",
