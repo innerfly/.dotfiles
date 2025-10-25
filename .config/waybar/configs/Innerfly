@@ -43,7 +43,7 @@
 		"tooltip-format": "<tt><small>{calendar}</small></tt>",
 		"today-format": "<span color='#E67E80' weight='ultrabold'>{}</span>",
 		"on-scroll": { "calendar": 1 },
-		"on-double-click": "kitty --title time sh -c 'tty-clock -c'"
+		"on-right-click": "kitty --title time sh -c 'tty-clock -c'"
 	},
 	"battery#forest": {
 		"align": 0,
