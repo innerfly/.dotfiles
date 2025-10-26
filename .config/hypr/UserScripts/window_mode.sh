@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 # Prints the active window's tiling mode for Waybar
+# Additionally, if the active app has more than 1 window open, append that count
 # Output examples:
-#  "󰒅" for floating, "" for tiled, "" for fullscreen, "" if none
+#  " 2" (tiled, two windows of this app), "󰒅" (floating, single), " 3" (fullscreen, three)
 # Falls back to short text if nerd fonts not available: [F], [T], [FS]
 
-# Helper to detect if a glyph can be displayed (crude but ok)
+# Helper to print the icon
 print_icon() {
   local icon="$1"
-  # If terminal can't render, still echo; Waybar usually can. Keep simple.
   printf "%s" "$icon"
 }
 
@@ -29,18 +29,33 @@ case "$fullscreen" in
   *) fs=0 ;;
 esac
 
+# Decide the mode icon first
+mode_icon=""
 if [[ $fs -eq 1 ]]; then
-  # Fullscreen
-  print_icon ""
-  exit 0
+  mode_icon=""
+else
+  case "$floating" in
+    true|1|"1")
+      mode_icon="󰒅"
+      ;;
+    *)
+      mode_icon=""
+      ;;
+  esac
 fi
 
-case "$floating" in
-  true|1|"1")
-    print_icon "󰒅"
-    ;;
-  *)
-    # Tiled
-    print_icon ""
-    ;;
-esac
+# Determine how many windows of the same app (class) are open
+app_class=$(jq -r '.class // .initialClass // empty' <<<"$json" 2>/dev/null)
+count_suffix=""
+if [[ -n "$app_class" ]]; then
+  clients_json=$(hyprctl clients -j 2>/dev/null)
+  if [[ -n "$clients_json" && "$clients_json" != "null" ]]; then
+    win_count=$(jq --arg cls "$app_class" '[.[] | select(.class == $cls and (.mapped == true or .mapped == 1))] | length' <<<"$clients_json" 2>/dev/null)
+    if [[ -n "$win_count" && "$win_count" =~ ^[0-9]+$ && $win_count -gt 1 ]]; then
+      count_suffix=" $win_count"
+    fi
+  fi
+fi
+
+# Print icon with optional count suffix
+print_icon "${mode_icon}${count_suffix}"
