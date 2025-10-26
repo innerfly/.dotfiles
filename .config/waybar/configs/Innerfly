@@ -36,6 +36,7 @@
 		"network",
 		"battery",
 		"power-profiles-daemon",
+        "custom/delimiter",
 		"hyprland/language",
 	],
 	"clock": {
@@ -128,7 +129,7 @@
         "on-click": "hyprctl switchxkblayout at-translated-set-2-keyboard next"
     },
     "custom/delimiter": {
-        "format": "  ",
+        "format": " ",
         "tooltip": false
     },
 }
