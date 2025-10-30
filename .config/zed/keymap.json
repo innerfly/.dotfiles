@@ -27,19 +27,13 @@
   {
     "context": "Editor",
     "bindings": {
-      "ctrl-w": null
-    }
-  },
-  {
-    "context": "Editor",
-    "bindings": {
       "ctrl-]": "editor::SelectSmallerSyntaxNode"
     }
   },
   {
     "context": "Editor",
     "bindings": {
-      "ctrl-shift-w": null
+      "ctrl-w": "pane::CloseActiveItem"
     }
   }
 ]
