@@ -103,7 +103,7 @@ xmodmap ~/.Xmodmap
 
 eval "$(fzf --bash)"
 
-export PATH=$HOME/.local/bin:$PATH
+export PATH=$HOME/.local/bin:/usr/bin:$PATH
 
 echo 'export LC_TIME=ru_RU.UTF-8' >> ~/.profile
 echo 'export LC_MONETARY=ru_RU.UTF-8' >> ~/.profile
