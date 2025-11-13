@@ -39,6 +39,9 @@ alias yt='yt-dlp --format bestaudio --extract-audio --audio-format mp3 \
     -o "$YD/_media/%(title)s [%(id)s].%(ext)s" \
     --cookies-from-browser chrome \
     --proxy "$PROXY_HTTPS"'
+alias ytd='yt-dlp --format bestaudio --extract-audio --audio-format mp3 \
+    -o "$YD/_media/%(title)s [%(id)s].%(ext)s" \
+    --cookies-from-browser chrome'
 
 # package
 alias i='yay -S'
