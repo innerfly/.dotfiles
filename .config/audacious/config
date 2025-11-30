@@ -8,7 +8,7 @@ use_proxy=TRUE
 use_proxy_auth=TRUE
 
 [audgui]
-filesel_path=~/Yandex.Disk/music
+filesel_path=/home/om/Music
 
 [qtui]
 player_height=576
