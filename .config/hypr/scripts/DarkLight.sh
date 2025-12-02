@@ -243,6 +243,9 @@ for pid1 in waybar rofi swaync ags swaybg; do
     killall "$pid1"
 done
 
+# restart telegram
+pkill -f -i 'telegram' && nohup Telegram &
+
 sleep 1
 ${SCRIPTSDIR}/Refresh.sh 
 
