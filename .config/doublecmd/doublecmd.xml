@@ -188,10 +188,10 @@
   <MainWindow>
     <Position Save="True">
       <Left>0</Left>
-      <Top>28</Top>
-      <Width>2048</Width>
-      <Height>1040</Height>
-      <PixelsPerInch>120</PixelsPerInch>
+      <Top>39</Top>
+      <Width>1014</Width>
+      <Height>1054</Height>
+      <PixelsPerInch>96</PixelsPerInch>
       <Maximized>False</Maximized>
       <Splitter>50</Splitter>
     </Position>
@@ -583,7 +583,7 @@
     <Exclude>False</Exclude>
     <ExcludeDirs/>
     <CustomIcons>0</CustomIcons>
-    <PixelsPerInch>120</PixelsPerInch>
+    <PixelsPerInch>96</PixelsPerInch>
     <ShowInMenus Enabled="False">
       <Size>16</Size>
     </ShowInMenus>
@@ -798,14 +798,14 @@
       <Unique>E4B31294-D731-46D9-9AE9-724AD3A2E2F2</Unique>
       <CustomView>False</CustomView>
       <FileSystem>&lt;General&gt;</FileSystem>
-      <PixelsPerInch>120</PixelsPerInch>
+      <PixelsPerInch>96</PixelsPerInch>
       <CursorBorder Enabled="False"/>
       <Columns>
         <Column>
           <Title>Name</Title>
           <Unique>CA19408F-F0E2-4EAE-80EF-FB893C63261B</Unique>
           <FuncString>[DC().GETFILENAMENOEXT{}]</FuncString>
-          <Width>314</Width>
+          <Width>251</Width>
           <Align>0</Align>
           <Font>
             <Name>FontAwesome</Name>
@@ -821,7 +821,7 @@
           <Title>Ext</Title>
           <Unique>4BE610A9-DAB7-4357-952E-90AB90511174</Unique>
           <FuncString>[DC().GETFILEEXT{}]</FuncString>
-          <Width>63</Width>
+          <Width>50</Width>
           <Align>0</Align>
           <Font>
             <Name>FontAwesome</Name>
@@ -837,7 +837,7 @@
           <Title>Size</Title>
           <Unique>913B25F8-4D91-4599-ABB1-07D6A4E52D45</Unique>
           <FuncString>[DC().GETFILESIZE{}]</FuncString>
-          <Width>88</Width>
+          <Width>70</Width>
           <Align>1</Align>
           <Font>
             <Name>FontAwesome</Name>
@@ -853,7 +853,7 @@
           <Title>Date</Title>
           <Unique>61B9B014-E32A-4C44-A10D-63D59BE25271</Unique>
           <FuncString>[DC().GETFILETIME{}]</FuncString>
-          <Width>175</Width>
+          <Width>140</Width>
           <Align>1</Align>
           <Font>
             <Name>FontAwesome</Name>
@@ -869,7 +869,7 @@
           <Title>Attr</Title>
           <Unique>FB669F1B-DDC9-4FDC-89A3-B25201ABE025</Unique>
           <FuncString>[DC().GETFILEATTR{}]</FuncString>
-          <Width>125</Width>
+          <Width>100</Width>
           <Align>0</Align>
           <Font>
             <Name>FontAwesome</Name>

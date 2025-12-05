@@ -18,5 +18,10 @@
     "mode": "system",
     "light": "Summercamp",
     "dark": "Andromeda"
+  },
+  "git": {
+      "inline_blame": {
+          "enabled": false
+      }
   }
 }
