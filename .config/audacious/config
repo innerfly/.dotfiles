@@ -7,9 +7,6 @@ proxy_user=proxyuser
 use_proxy=TRUE
 use_proxy_auth=TRUE
 
-[audgui]
-filesel_path=/home/om/Music
-
 [qtui]
 player_height=576
 player_width=1024
