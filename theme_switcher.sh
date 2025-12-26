@@ -11,7 +11,7 @@ MODE="$1"
 if [ "$MODE" == "dark" ]; then
     THEME='WhiteSur-Dark-nord'
     COLOR_SCHEME='prefer-dark'
-    NIGHT_LIGHT=true    
+#    NIGHT_LIGHT=true    
 elif [ "$MODE" == "light" ]; then
     THEME='WhiteSur-Light'
     COLOR_SCHEME='default'
