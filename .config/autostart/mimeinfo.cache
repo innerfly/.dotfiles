@@ -1,0 +1,5 @@
+[MIME Cache]
+text/uri-list=variety.desktop;
+x-scheme-handler/jetbrains=jetbrains-toolbox.desktop;
+x-scheme-handler/variety=variety.desktop;
+x-scheme-handler/vrty=variety.desktop;
