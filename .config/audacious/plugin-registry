@@ -703,7 +703,7 @@ domain audacious-plugins
 priority 10
 about 1
 config 1
-enabled 0
+enabled 2
 output /usr/lib/audacious/Output/jack-ng.so
 stamp 1759600798
 version 48
