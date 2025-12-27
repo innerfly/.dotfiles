@@ -18,6 +18,9 @@ elif [ "$MODE" == "light" ]; then
     NIGHT_LIGHT=false
 fi
 
+# restart telegram
+pkill -f -i 'telegram' && nohup Telegram &
+
 dconf write /org/gnome/shell/extensions/user-theme/name "'$THEME'"
 gsettings set org.gnome.desktop.interface gtk-theme "$THEME"
 gsettings set org.gnome.desktop.interface color-scheme "$COLOR_SCHEME"
