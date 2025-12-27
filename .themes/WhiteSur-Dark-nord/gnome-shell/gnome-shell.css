@@ -2161,7 +2161,7 @@ StEntry StLabel.hint-text {
   font-weight: 500;
   color: white;
   transition-duration: 250ms;
-  height: 28px !important;
+  height: 36px !important;
   box-shadow: 0 5px 16px rgba(0, 0, 0, 0.05);
 }
 
