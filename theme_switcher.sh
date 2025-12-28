@@ -9,7 +9,8 @@ fi
 MODE="$1"
 
 if [ "$MODE" == "dark" ]; then
-    THEME='Tokyonight-Dark'
+    THEME='Gruvbox-Dark'
+    #THEME='Tokyonight-Dark'
     COLOR_SCHEME='prefer-dark'
     NIGHT_LIGHT=false
 elif [ "$MODE" == "light" ]; then
