@@ -9,17 +9,18 @@ fi
 MODE="$1"
 
 if [ "$MODE" == "dark" ]; then
-    THEME='WhiteSur-Dark-nord'
+    #THEME='WhiteSur-Dark-nord'
+    THEME='Adwaita-dark'
     COLOR_SCHEME='prefer-dark'
 #    NIGHT_LIGHT=true    
 elif [ "$MODE" == "light" ]; then
-    THEME='WhiteSur-Light'
+    THEME='Adwaita'
     COLOR_SCHEME='default'
     NIGHT_LIGHT=false
 fi
 
 # restart telegram
-pkill -f -i 'telegram' && nohup Telegram &
+#pkill -f -i 'telegram' && nohup Telegram &
 
 dconf write /org/gnome/shell/extensions/user-theme/name "'$THEME'"
 gsettings set org.gnome.desktop.interface gtk-theme "$THEME"
