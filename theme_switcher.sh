@@ -13,7 +13,7 @@ if [ "$MODE" == "dark" ]; then
     COLOR_SCHEME='prefer-dark'
     NIGHT_LIGHT=false
 elif [ "$MODE" == "light" ]; then
-    THEME='Tokyonight-Light'
+    THEME='Gruvbox-Light'
     COLOR_SCHEME='default'
     NIGHT_LIGHT=false
 fi
