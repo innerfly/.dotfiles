@@ -9,10 +9,9 @@ fi
 MODE="$1"
 
 if [ "$MODE" == "dark" ]; then
-    #THEME='WhiteSur-Dark-nord'
     THEME='Tokyonight-Dark'
     COLOR_SCHEME='prefer-dark'
-#    NIGHT_LIGHT=true    
+    NIGHT_LIGHT=false
 elif [ "$MODE" == "light" ]; then
     THEME='Adwaita'
     COLOR_SCHEME='default'
