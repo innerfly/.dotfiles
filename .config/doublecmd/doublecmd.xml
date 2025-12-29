@@ -187,12 +187,12 @@
   </Toolbars>
   <MainWindow>
     <Position Save="True">
-      <Left>0</Left>
-      <Top>28</Top>
-      <Width>1024</Width>
-      <Height>1040</Height>
+      <Left>90</Left>
+      <Top>91</Top>
+      <Width>1596</Width>
+      <Height>883</Height>
       <PixelsPerInch>120</PixelsPerInch>
-      <Maximized>True</Maximized>
+      <Maximized>False</Maximized>
       <Splitter>50</Splitter>
     </Position>
   </MainWindow>
