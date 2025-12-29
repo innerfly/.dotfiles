@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# Check if a parameter was provided
-if [ -z "$1" ]; then
-    echo "Usage: $0 <light|dark>"
-    exit 1
-fi
+CURRENT_SCHEME=$(gsettings get org.gnome.desktop.interface color-scheme)
 
-MODE="$1"
+if [[ "$CURRENT_SCHEME" == *"dark"* ]]; then
+    MODE="light"
+else
+    MODE="dark"
+fi
 
 if [ "$MODE" == "dark" ]; then
     THEME='Gruvbox-Dark'
