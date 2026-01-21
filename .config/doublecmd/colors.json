@@ -941,43 +941,6 @@
           ]
         },
         {
-          Name : "Visual Basic",
-          Attributes : [
-            {
-              Name : "Comment",
-              Value : "$1FFFFFFF|$00FF0000|$1FFFFFFF|0|1|1|0"
-            },
-            {
-              Name : "Default text",
-              Value : "$80000005|$80000008|$1FFFFFFF|0|1|0|0"
-            },
-            {
-              Name : "Identifier",
-              Value : "$1FFFFFFF|$1FFFFFFF|$1FFFFFFF|0|1|0|0"
-            },
-            {
-              Name : "Number",
-              Value : "$1FFFFFFF|$00800000|$1FFFFFFF|0|1|0|0"
-            },
-            {
-              Name : "Reserved word",
-              Value : "$1FFFFFFF|$1FFFFFFF|$1FFFFFFF|0|1|1|0"
-            },
-            {
-              Name : "Space",
-              Value : "$1FFFFFFF|$1FFFFFFF|$1FFFFFFF|0|1|0|0"
-            },
-            {
-              Name : "String",
-              Value : "$1FFFFFFF|$00FF0000|$1FFFFFFF|0|1|0|0"
-            },
-            {
-              Name : "Symbol",
-              Value : "$1FFFFFFF|$000000FF|$1FFFFFFF|0|1|0|0"
-            }
-          ]
-        },
-        {
           Name : "XML document",
           Attributes : [
             {
@@ -1034,6 +997,63 @@
             },
             {
               Name : "Whitespace",
+              Value : "$1FFFFFFF|$1FFFFFFF|$1FFFFFFF|0|1|0|0"
+            }
+          ]
+        },
+        {
+          Name : "YAML",
+          Attributes : [
+            {
+              Name : "Anchor",
+              Value : "$1FFFFFFF|$00000080|$1FFFFFFF|0|1|1|0"
+            },
+            {
+              Name : "Comment",
+              Value : "$1FFFFFFF|$00808080|$1FFFFFFF|0|1|2|0"
+            },
+            {
+              Name : "Default text",
+              Value : "$80000005|$80000008|$1FFFFFFF|0|1|0|0"
+            },
+            {
+              Name : "Delimiter",
+              Value : "$00C0C0C0|$00808080|$1FFFFFFF|0|1|1|0"
+            },
+            {
+              Name : "Directive",
+              Value : "$1FFFFFFF|$00808000|$1FFFFFFF|0|1|0|0"
+            },
+            {
+              Name : "Key",
+              Value : "$1FFFFFFF|$00008000|$1FFFFFFF|0|1|1|0"
+            },
+            {
+              Name : "Number",
+              Value : "$1FFFFFFF|$00800080|$1FFFFFFF|0|1|0|0"
+            },
+            {
+              Name : "Space",
+              Value : "$1FFFFFFF|$1FFFFFFF|$1FFFFFFF|0|1|0|0"
+            },
+            {
+              Name : "String",
+              Value : "$1FFFFFFF|$00FF0000|$1FFFFFFF|0|1|0|0"
+            },
+            {
+              Name : "Symbol",
+              Value : "$1FFFFFFF|$00FF0000|$1FFFFFFF|0|1|1|0"
+            },
+            {
+              Name : "SyntaxError",
+              Value : "$1FFFFFFF|$000000FF|$1FFFFFFF|0|1|0|0"
+            },
+            {
+              Name : "Tag",
+              Value : "$1FFFFFFF|$00800000|$1FFFFFFF|0|1|1|0"
+            },
+            {
+              Name : "Text",
               Value : "$1FFFFFFF|$1FFFFFFF|$1FFFFFFF|0|1|0|0"
             }
           ]
@@ -1327,7 +1347,7 @@
           ]
         },
         {
-          Name : "Java script",
+          Name : "JavaScript",
           Ranges : [
             {
               Name : "Root",
@@ -2611,43 +2631,6 @@
           ]
         },
         {
-          Name : "Visual Basic",
-          Attributes : [
-            {
-              Name : "Comment",
-              Value : "$1FFFFFFF|$00C09B61|$1FFFFFFF|0|1|1|0"
-            },
-            {
-              Name : "Default text",
-              Value : "$80000005|$80000008|$1FFFFFFF|0|1|0|0"
-            },
-            {
-              Name : "Identifier",
-              Value : "$1FFFFFFF|$1FFFFFFF|$1FFFFFFF|0|1|0|0"
-            },
-            {
-              Name : "Number",
-              Value : "$1FFFFFFF|$00E8BCBC|$1FFFFFFF|0|1|0|0"
-            },
-            {
-              Name : "Reserved word",
-              Value : "$1FFFFFFF|$1FFFFFFF|$1FFFFFFF|0|1|1|0"
-            },
-            {
-              Name : "Space",
-              Value : "$1FFFFFFF|$1FFFFFFF|$1FFFFFFF|0|1|0|0"
-            },
-            {
-              Name : "String",
-              Value : "$1FFFFFFF|$00C09B61|$1FFFFFFF|0|1|0|0"
-            },
-            {
-              Name : "Symbol",
-              Value : "$1FFFFFFF|$004D4DAA|$1FFFFFFF|0|1|0|0"
-            }
-          ]
-        },
-        {
           Name : "XML document",
           Attributes : [
             {
@@ -2704,6 +2687,63 @@
             },
             {
               Name : "Whitespace",
+              Value : "$1FFFFFFF|$1FFFFFFF|$1FFFFFFF|0|1|0|0"
+            }
+          ]
+        },
+        {
+          Name : "YAML",
+          Attributes : [
+            {
+              Name : "Anchor",
+              Value : "$1FFFFFFF|$00000080|$1FFFFFFF|0|1|1|0"
+            },
+            {
+              Name : "Comment",
+              Value : "$1FFFFFFF|$00808080|$1FFFFFFF|0|1|2|0"
+            },
+            {
+              Name : "Default text",
+              Value : "$80000005|$80000008|$1FFFFFFF|0|1|0|0"
+            },
+            {
+              Name : "Delimiter",
+              Value : "$00C0C0C0|$00808080|$1FFFFFFF|0|1|1|0"
+            },
+            {
+              Name : "Directive",
+              Value : "$1FFFFFFF|$00808000|$1FFFFFFF|0|1|0|0"
+            },
+            {
+              Name : "Key",
+              Value : "$1FFFFFFF|$00008000|$1FFFFFFF|0|1|1|0"
+            },
+            {
+              Name : "Number",
+              Value : "$1FFFFFFF|$00800080|$1FFFFFFF|0|1|0|0"
+            },
+            {
+              Name : "Space",
+              Value : "$1FFFFFFF|$1FFFFFFF|$1FFFFFFF|0|1|0|0"
+            },
+            {
+              Name : "String",
+              Value : "$1FFFFFFF|$00FF0000|$1FFFFFFF|0|1|0|0"
+            },
+            {
+              Name : "Symbol",
+              Value : "$1FFFFFFF|$00FF0000|$1FFFFFFF|0|1|1|0"
+            },
+            {
+              Name : "SyntaxError",
+              Value : "$1FFFFFFF|$000000FF|$1FFFFFFF|0|1|0|0"
+            },
+            {
+              Name : "Tag",
+              Value : "$1FFFFFFF|$00800000|$1FFFFFFF|0|1|1|0"
+            },
+            {
+              Name : "Text",
               Value : "$1FFFFFFF|$1FFFFFFF|$1FFFFFFF|0|1|0|0"
             }
           ]
@@ -2997,7 +3037,7 @@
           ]
         },
         {
-          Name : "Java script",
+          Name : "JavaScript",
           Ranges : [
             {
               Name : "Root",
@@ -3005,43 +3045,43 @@
               KeyLists : [
                 {
                   Name : "Functions and key words",
-                  Attributes : "$008AD277,$80000005;False:True."
+                  Attributes : "$00008000,$80000005;False:True."
                 },
                 {
                   Name : "Reserved words",
-                  Attributes : "$00E8BCBC,$80000005;False:True."
+                  Attributes : "$00FF0000,$80000005;False:True."
                 },
                 {
                   Name : "Common Events",
-                  Attributes : "$00E8BCBC,$80000005;False:True."
+                  Attributes : "$00FF0080,$80000005;False:True."
                 }
               ],
               Ranges : [
                 {
                   Name : "Remark //",
-                  Attributes : "$00C09B61,$80000005;False:True."
+                  Attributes : "$00A00000,$80000005;False:True."
                 },
                 {
                   Name : "Remark /*...*/",
-                  Attributes : "$00C09B61,$80000005;False:True."
+                  Attributes : "$00A00000,$80000005;False:True."
                 },
                 {
                   Name : "Strings '..'",
-                  Attributes : "$00898BB9,$80000005;False:True.",
+                  Attributes : "$000000FF,$80000005;False:True.",
                   KeyLists : [
                     {
                       Name : "Escape",
-                      Attributes : "$00898BB9,$80000005;True:True."
+                      Attributes : "$000000FF,$80000005;True:True."
                     }
                   ]
                 },
                 {
                   Name : "Strings \"..\"",
-                  Attributes : "$00898BB9,$80000005;False:True.",
+                  Attributes : "$000000FF,$80000005;False:True.",
                   KeyLists : [
                     {
                       Name : "Escape",
-                      Attributes : "$00898BB9,$80000005;True:True."
+                      Attributes : "$000000FF,$80000005;True:True."
                     }
                   ]
                 }
