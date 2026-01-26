@@ -1579,7 +1579,7 @@ StEntry StLabel.hint-text,
   -natural-hpadding: 12px;
   -minimum-hpadding: 12px;
   font-weight: bold;
-  /*color: rgba(29, 32, 33, 0.6);*/
+  color: rgba(29, 32, 33, 0.6);
   transition-duration: 150ms;
   border-radius: 12px;
   text-shadow: none;
