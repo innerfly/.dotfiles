@@ -112,3 +112,5 @@ echo 'export LC_NUMERIC=ru_RU.UTF-8' >> ~/.profile
 export QT_FONT_DPI=150
 export EDITOR=micro
 export VISUAL=micro
+
+export GOOGLE_CLOUD_PROJECT="innerfly"
