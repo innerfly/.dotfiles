@@ -1525,6 +1525,9 @@ StEntry StLabel.hint-text,
   width: 15em;
 }
 
+#overview {
+  color:#000000 !important;
+}
 #overview StScrollBar StBin#trough {
   background-color: rgba(251, 241, 199, 0.12);
 }

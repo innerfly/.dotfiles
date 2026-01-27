@@ -78,6 +78,8 @@ alias ff="fzf --preview 'batcat --style=numbers --color=always {}'"
 alias zed='zeditor'
 alias clip='xclip -selection clipboard <'
 alias bt='btop'
+alias oc='opencode'
+alias gem='gemini'
 
 # 
 alias dcw='dce backend bash'
