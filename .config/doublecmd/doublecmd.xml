@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<doublecmd DCVersion="1.2.0 beta" ConfigVersion="15">
+<doublecmd DCVersion="1.2.1 beta" ConfigVersion="15">
   <Colors>
     <Foreground>-2147483640</Foreground>
     <Background>-2147483643</Background>
@@ -189,8 +189,8 @@
     <Position Save="True">
       <Left>0</Left>
       <Top>35</Top>
-      <Width>1636</Width>
-      <Height>824</Height>
+      <Width>1634</Width>
+      <Height>822</Height>
       <PixelsPerInch>96</PixelsPerInch>
       <Maximized>False</Maximized>
       <Splitter>50</Splitter>

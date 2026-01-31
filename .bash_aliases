@@ -35,10 +35,12 @@ alias wk='curl wttr.in/kimry'
 alias m='micro'
 alias n='nvim'
 alias ws='webstorm'
-alias yt='yt-dlp --format bestaudio --extract-audio --audio-format mp3 \
-    -o "$YD/_media/%(title)s [%(id)s].%(ext)s" \
-    --cookies-from-browser chrome \
-    --proxy "$PROXY_HTTPS"'
+# alias yt='yt-dlp --format bestaudio --extract-audio --audio-format mp3 \
+#     -o "$YD/_media/%(title)s [%(id)s].%(ext)s" \
+#     --cookies-from-browser chrome \
+#     --proxy "$PROXY_HTTPS"'
+
+alias yt='cd ~/Yandex.Disk/_media/ && yt-dlp -f 140'
 alias ytd='yt-dlp --format bestaudio --extract-audio --audio-format mp3 \
     -o "$YD/_media/%(title)s [%(id)s].%(ext)s" \
     --cookies-from-browser chrome'
@@ -76,6 +78,7 @@ alias lt='eza --tree --level=2 --long --icons --git'
 alias f="fzf"
 alias ff="fzf --preview 'batcat --style=numbers --color=always {}'"
 alias zed='zeditor'
+alias open='nautilus'
 alias clip='xclip -selection clipboard <'
 alias bt='btop'
 alias oc='opencode'
