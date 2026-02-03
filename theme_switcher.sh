@@ -9,12 +9,12 @@ else
 fi
 
 if [ "$MODE" == "dark" ]; then
-    THEME='Gruvbox-Dark'
-    #THEME='Tokyonight-Dark'
+    #THEME='Gruvbox-Dark'
+    THEME='WhiteSur-Dark-solid'
     COLOR_SCHEME='prefer-dark'
     NIGHT_LIGHT=false
 elif [ "$MODE" == "light" ]; then
-    THEME='Gruvbox-Light'
+    THEME='WhiteSur-Light-solid'
     COLOR_SCHEME='default'
     NIGHT_LIGHT=false
 fi
