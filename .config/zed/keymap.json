@@ -1,4 +1,4 @@
-// Zed keymap
+// Zed keymap (synced from IntelliJ IDEA Innerfly keymap)
 //
 // For information on binding keys, see the Zed
 // documentation: https://zed.dev/docs/key-bindings
@@ -6,34 +6,109 @@
 // To see the default key bindings run `zed: open default keymap`
 // from the command palette.
 [
+  // Workspace-level bindings
   {
     "context": "Workspace",
     "bindings": {
-      // "shift shift": "file_finder::Toggle"
+      "ctrl-o": "file_finder::Toggle",
+      "ctrl-n": "workspace::NewFile",
+      "ctrl-t": "pane::ReopenClosedItem",
+      "alt-1": "workspace::ToggleLeftDock",
+      "alt-2": "workspace::ToggleBottomDock",
+      "alt-4": "workspace::ToggleRightDock",
+      "alt-9": "terminal_panel::ToggleFocus",
+      "shift-ctrl-f12": "workspace::ToggleZoom",
+      "shift-ctrl-escape": "workspace::ToggleZoom",
+      "ctrl-alt-b": "branches::OpenRecent",
+      "alt-g": "project_panel::ToggleFocus"
     }
   },
+  // Vim insert mode
   {
     "context": "Editor && vim_mode == insert",
     "bindings": {
       // "j k": "vim::NormalBefore"
     }
   },
+  // Editor navigation
   {
     "context": "Editor",
     "bindings": {
-      "ctrl-[": "editor::SelectLargerSyntaxNode"
+      "ctrl-alt-left": "pane::GoBack",
+      "ctrl-alt-right": "pane::GoForward",
+      "alt-left": "pane::ActivatePreviousItem",
+      "alt-right": "pane::ActivateNextItem"
     }
   },
+  // Editor - Selection and editing
   {
     "context": "Editor",
     "bindings": {
-      "ctrl-]": "editor::SelectSmallerSyntaxNode"
+      "ctrl-[": "editor::SelectLargerSyntaxNode",
+      "ctrl-]": "editor::SelectSmallerSyntaxNode",
+      "ctrl-l": "editor::SelectLine",
+      "shift-ctrl-up": "editor::MoveLineUp",
+      "shift-ctrl-down": "editor::MoveLineDown",
+      "ctrl-w": "pane::CloseActiveItem",
+      "shift-ctrl-alt-w": "pane::CloseAllItems",
+      "f2": "editor::Rename",
+      "shift-f6": "editor::Rename",
+      "shift-alt-u": "editor::ConvertToUpperCase"
     }
   },
+  // Editor - Code navigation
   {
     "context": "Editor",
     "bindings": {
-      "ctrl-w": "pane::CloseActiveItem"
+      "alt-b": "editor::GoToImplementation",
+      "alt-o": "outline::Toggle",
+      "ctrl-f12": "outline::Toggle"
+    }
+  },
+  // Editor - Search
+  {
+    "context": "Editor",
+    "bindings": {
+      "f3": "search::SelectNextMatch",
+      "shift-f3": "search::SelectPreviousMatch"
+    }
+  },
+  // Editor - Split/Layout
+  {
+    "context": "Editor",
+    "bindings": {
+      "shift-ctrl-o": "pane::SplitRight",
+      "shift-alt-e": "workspace::ToggleZoom"
+    }
+  },
+  // Terminal
+  {
+    "context": "Terminal",
+    "bindings": {
+      "alt-9": "workspace::ToggleBottomDock"
+    }
+  },
+  // Project panel
+  {
+    "context": "ProjectPanel",
+    "bindings": {
+      "alt-insert": "project_panel::NewDirectory",
+      "ctrl-n": "project_panel::NewFile",
+      "f2": "project_panel::Rename"
+    }
+  },
+  // Git bindings
+  {
+    "context": "Editor",
+    "bindings": {
+      "shift-alt-f": "editor::ToggleGitBlame"
+    }
+  },
+  // VCS tool window alternatives
+  {
+    "context": "Workspace",
+    "bindings": {
+      "shift-ctrl-h": "editor::OpenExcerpts"
     }
   }
 ]

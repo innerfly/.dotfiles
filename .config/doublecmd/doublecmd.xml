@@ -1139,6 +1139,7 @@
         <ExtensionStyle>0</ExtensionStyle>
         <Find>Linux for Programmers </Find>
         <Replace/>
+        <RepExt>True</RepExt>
         <RegExp>True</RegExp>
         <UseSubs>False</UseSubs>
         <CaseSensitive>False</CaseSensitive>
