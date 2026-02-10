@@ -14,20 +14,10 @@
       "ctrl-n": "workspace::NewFile",
       "ctrl-t": "pane::ReopenClosedItem",
       "alt-1": "workspace::ToggleLeftDock",
-      "alt-2": "workspace::ToggleBottomDock",
+      "alt-d": "workspace::ToggleBottomDock",
       "alt-4": "workspace::ToggleRightDock",
-      "alt-9": "terminal_panel::ToggleFocus",
-      "shift-ctrl-f12": "workspace::ToggleZoom",
-      "shift-ctrl-escape": "workspace::ToggleZoom",
-      "ctrl-alt-b": "branches::OpenRecent",
-      "alt-g": "project_panel::ToggleFocus"
-    }
-  },
-  // Vim insert mode
-  {
-    "context": "Editor && vim_mode == insert",
-    "bindings": {
-      // "j k": "vim::NormalBefore"
+      "alt-c": "terminal_panel::Toggle",
+      "alt-g": "git::Switch",
     }
   },
   // Editor navigation
@@ -78,14 +68,6 @@
     "context": "Editor",
     "bindings": {
       "shift-ctrl-o": "pane::SplitRight",
-      "shift-alt-e": "workspace::ToggleZoom"
-    }
-  },
-  // Terminal
-  {
-    "context": "Terminal",
-    "bindings": {
-      "alt-9": "workspace::ToggleBottomDock"
     }
   },
   // Project panel
