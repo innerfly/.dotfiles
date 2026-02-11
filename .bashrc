@@ -114,3 +114,4 @@ export EDITOR=micro
 export VISUAL=micro
 
 export GOOGLE_CLOUD_PROJECT="innerfly"
+export PATH="$PATH:$(go env GOPATH)/bin"
