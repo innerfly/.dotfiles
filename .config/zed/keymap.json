@@ -10,7 +10,8 @@
   {
     "context": "Workspace",
     "bindings": {
-      "ctrl-o": "file_finder::Toggle",
+      // "ctrl-o": "file_finder::Toggle",
+      "ctrl-o": "workspace::Open",
       "ctrl-n": "workspace::NewFile",
       "ctrl-t": "pane::ReopenClosedItem",
       "alt-1": "workspace::ToggleLeftDock",
@@ -52,6 +53,7 @@
     "bindings": {
       "alt-b": "editor::GoToImplementation",
       "alt-o": "outline::Toggle",
+      "alt-7": "outline::Toggle",
       "ctrl-f12": "outline::Toggle"
     }
   },
