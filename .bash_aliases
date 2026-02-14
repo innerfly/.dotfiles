@@ -1,7 +1,7 @@
 YD="$HOME/Yandex.Disk"
 
-if [ -f "$YD/config/.env" ]; then
-    . "$YD/config/.env"
+if [ -f "$HOME/.env" ]; then
+    source "$HOME/.env"
 fi
 
 # some more ls aliases
@@ -35,10 +35,6 @@ alias wk='curl wttr.in/kimry'
 alias m='micro'
 alias n='nvim'
 alias ws='webstorm'
-# alias yt='yt-dlp --format bestaudio --extract-audio --audio-format mp3 \
-#     -o "$YD/_media/%(title)s [%(id)s].%(ext)s" \
-#     --cookies-from-browser chrome \
-#     --proxy "$PROXY_HTTPS"'
 
 alias yt='cd ~/Yandex.Disk/_media/ && yt-dlp -f 140'
 alias ytd='yt-dlp --format bestaudio --extract-audio --audio-format mp3 \
@@ -51,6 +47,7 @@ alias r='yay -Rcs'
 alias u='yay -Syu'
 alias up='all_proxy=$PROXY_HTTP ALL_PROXY=$PROXY_HTTP yay -Syu'
 alias yp='yay -Qq > $YD/config/packages_$(hostname -s).txt \
+    && cp $HOME/.env $YD/config/ \
     && yadm commit -a -m "Update: $(date +\"%Y-%m-%d\ %H:%M:%S\")" \
     && yadm push \
     && echo "---------" \
