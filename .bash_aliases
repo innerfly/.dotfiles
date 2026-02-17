@@ -1,8 +1,11 @@
 YD="$HOME/Yandex.Disk"
 
+if [ -f "~/.env" ]; then
+    source "~/.env"
+fi
+
 alias ll='ls -alF'
 alias la='ls -A'
-alias l='ls -CF'
 alias c='composer'
 alias hs='history'
 alias dl='cd ~/Downloads'
@@ -15,7 +18,6 @@ alias conf='cd ~/.config'
 alias www='cd /var/www/html'
 alias sites='cd /etc/nginx/sites-enabled'
 alias t='tty-clock -c'
-alias e='eza'
 alias tr='trans en:ru'
 alias te='trans ru:en'
 alias ys='yadm status'
@@ -64,7 +66,8 @@ alias dcr='dcd && dcu'
 alias dce='docker compose exec'
 
 # tools
-alias ls='eza -lh --group-directories-first --icons=auto'
+#alias ls='eza -lh --group-directories-first --icons=auto'
+alias l='eza -lh --group-directories-first --icons=auto'
 alias lsa='ls -a'
 alias lt='eza --tree --level=2 --long --icons --git'
 alias f="fzf"
