@@ -3,11 +3,10 @@
 CURRENT_SCHEME=$(gsettings get org.gnome.desktop.interface color-scheme)
 
 if [[ "$CURRENT_SCHEME" == *"dark"* ]]; then
-    THEME='WhiteSur-Light-solid'
+    THEME='Rounded-Rectangle-White'
     COLOR_SCHEME='default'
     NIGHT_LIGHT=false
 else
-    #THEME='Gruvbox-Dark'
     THEME='WhiteSur-Dark-solid'
     COLOR_SCHEME='prefer-dark'
     NIGHT_LIGHT=false
