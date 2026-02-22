@@ -83,7 +83,7 @@ if [ -f ~/.bash_aliases ]; then
 fi
 
 if [ -f "~/.env" ]; then
-    source "~/.env"
+    . ~/.env
 fi
 
 # enable programmable completion features (you don't need to enable
