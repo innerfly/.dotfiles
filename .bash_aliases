@@ -74,7 +74,7 @@ alias clip='xclip -selection clipboard <'
 alias bt='btop'
 alias oc='opencode'
 alias gem='gemini'
-alias pxtest='cd ~/Projects/proxy-health-checker/ && go run main.go && cd -'
+alias pxt='cd ~/Projects/proxy-health-checker/ && go run main.go && cd -'
 
 # 
 alias dcw='dce backend bash'
