@@ -62,7 +62,7 @@ alias dcr='dcd && dcu'
 alias dce='docker compose exec'
 
 # tools
-#alias ls='eza -lh --group-directories-first --icons=auto'
+alias ls='eza -lh --group-directories-first --icons=auto'
 alias l='eza -lh --group-directories-first --icons=auto'
 alias lsa='ls -a'
 alias lt='eza --tree --level=2 --long --icons --git'
