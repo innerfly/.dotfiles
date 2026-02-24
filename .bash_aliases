@@ -1,9 +1,5 @@
 YD="$HOME/Yandex.Disk"
 
-if [ -f "~/.env" ]; then
-    source "~/.env"
-fi
-
 alias ll='ls -alF'
 alias la='ls -A'
 alias c='composer'
@@ -12,7 +8,7 @@ alias dl='cd ~/Downloads'
 alias yd="cd $YD"
 alias yds='yandex-disk status'
 alias ydr='yandex-disk stop && yandex-disk start'
-alias app='cd ~/Apps'
+alias app='cd ~/Applications'
 alias pro='cd ~/Projects'
 alias conf='cd ~/.config'
 alias www='cd /var/www/html'
@@ -78,6 +74,7 @@ alias clip='xclip -selection clipboard <'
 alias bt='btop'
 alias oc='opencode'
 alias gem='gemini'
+alias pxtest='cd ~/Projects/proxy-health-checker/ && go run main.go && cd -'
 
 # 
 alias dcw='dce backend bash'
