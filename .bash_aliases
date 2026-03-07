@@ -1,3 +1,7 @@
+if [ -f "~/.env" ]; then
+    . ~/.env
+fi
+
 YD="$HOME/Yandex.Disk"
 
 alias ll='ls -alF'
