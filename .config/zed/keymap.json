@@ -17,7 +17,6 @@
       "alt-1": "workspace::ToggleLeftDock",
       "alt-d": "workspace::ToggleBottomDock",
       "alt-4": "workspace::ToggleRightDock",
-      "alt-9": "terminal_panel::Toggle",
       "alt-g": "git::Switch",
     }
   },
@@ -116,6 +115,12 @@
     "context": "Workspace",
     "bindings": {
       "alt-open": null
+    }
+  },
+  {
+    "context": "Workspace || Editor",
+    "bindings": {
+      "alt-9": "terminal_panel::Toggle"
     }
   }
 ]
