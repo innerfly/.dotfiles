@@ -95,7 +95,7 @@
     }
   },
   {
-    "context": "Workspace",
+    "context": "Workspace || Editor",
     "bindings": {
       "ctrl-shift-o": [
         "projects::OpenRecent",
