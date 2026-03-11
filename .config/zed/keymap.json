@@ -118,9 +118,9 @@
     }
   },
   {
-    "context": "Workspace || Editor",
+    "context": "Workspace",
     "bindings": {
-      "alt-9": "terminal_panel::Toggle"
+      "ctrl-`": null
     }
   }
 ]
