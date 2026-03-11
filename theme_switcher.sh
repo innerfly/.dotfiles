@@ -3,11 +3,13 @@
 CURRENT_SCHEME=$(gsettings get org.gnome.desktop.interface color-scheme)
 
 if [[ "$CURRENT_SCHEME" == *"dark"* ]]; then
-    THEME='Qogir-Dark'
+    # light theme
+    THEME='Qogir-Light'
     COLOR_SCHEME='default'
     NIGHT_LIGHT=false
 else
-    THEME='Qogir-Light'
+    # dark theme
+    THEME='Qogir-Dark'
     COLOR_SCHEME='prefer-dark'
     NIGHT_LIGHT=false
 fi
