@@ -35,11 +35,11 @@ alias ytd='yt-dlp --format bestaudio --extract-audio --audio-format mp3 \
     --cookies-from-browser chrome'
 
 # package
-alias i='yay -S'
-alias r='yay -Rcs'
-alias u='yay -Syu'
-alias up='all_proxy=$PROXY_HTTP ALL_PROXY=$PROXY_HTTP yay -Syu'
-alias yp='yay -Qq > $YD/config/packages_$(hostname -s).txt \
+alias i='paru -S'
+alias r='paru -Rcs'
+alias u='paru -Syu'
+alias up='all_proxy=$PROXY_HTTP ALL_PROXY=$PROXY_HTTP paru -Syu'
+alias yp='paru -Qq > $YD/config/packages_$(hostname -s).txt \
     && cp $HOME/.env $YD/config/ \
     && cp -r $HOME/.ssh $YD/config/ \
     && yadm commit -a -m "Update: $(date +\"%Y-%m-%d\ %H:%M:%S\")" \
