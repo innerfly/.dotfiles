@@ -80,20 +80,6 @@
       "f2": "project_panel::Rename"
     }
   },
-  // Git bindings
-  {
-    "context": "Editor",
-    "bindings": {
-      "shift-alt-f": "editor::ToggleGitBlame"
-    }
-  },
-  // VCS tool window alternatives
-  {
-    "context": "Workspace",
-    "bindings": {
-      "shift-ctrl-h": "editor::OpenExcerpts"
-    }
-  },
   {
     "context": "Workspace || Editor",
     "bindings": {
