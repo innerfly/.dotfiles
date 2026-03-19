@@ -117,3 +117,6 @@ export VISUAL=micro
 
 #export GOOGLE_CLOUD_PROJECT="innerfly"
 export PATH="$PATH:$(go env GOPATH)/bin"
+
+# starship
+eval "$(starship init bash)"
