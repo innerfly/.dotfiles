@@ -115,6 +115,12 @@ export QT_FONT_DPI=150
 export EDITOR=micro
 export VISUAL=micro
 
+# Less colors for search highlighting
+export LESS_TERMCAP_so=$'\e[01;47;34m'  # Current search match (blue text on white bg)
+export LESS_TERMCAP_se=$'\e[0m'          # End standout mode
+export LESS_TERMCAP_us=$'\e[01;43;30m'  # Other matches (black text on yellow bg)
+export LESS_TERMCAP_ue=$'\e[0m'          # End underline mode
+
 #export GOOGLE_CLOUD_PROJECT="innerfly"
 export PATH="$PATH:$(go env GOPATH)/bin"
 
