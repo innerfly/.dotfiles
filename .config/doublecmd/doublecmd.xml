@@ -610,6 +610,7 @@
     <HotDir Name="-System" Path=""/>
     <HotDir Name=".themes" Path="~/.themes"/>
     <HotDir Name="extensions" Path="~/.local/share/gnome-shell/extensions"/>
+    <HotDir Name="extensions" Path="/home/om/.local/share/gnome-shell/extensions/"/>
     <HotDir Name=".config" Path="~/.config"/>
     <HotDir Name="extensions" Path="/usr/share/gnome-shell/extensions"/>
     <HotDir Name="applications" Path="~/.local/share/applications"/>
