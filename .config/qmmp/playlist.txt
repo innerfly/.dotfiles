@@ -1,6 +1,6 @@
 current_playlist=0
 playlist=Playlist
-current=1
+current=0
 file=http://ubuntu.hbr1.com:19800/ambient.ogg
 genre=Ambient, Chillout, Downbeat, Trance
 title=HBR1 - Dream Factory
