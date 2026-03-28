@@ -187,8 +187,8 @@
   </Toolbars>
   <MainWindow>
     <Position Save="True">
-      <Left>-11</Left>
-      <Top>-49</Top>
+      <Left>740</Left>
+      <Top>1391</Top>
       <Width>1634</Width>
       <Height>822</Height>
       <PixelsPerInch>96</PixelsPerInch>
@@ -610,7 +610,7 @@
     <HotDir Name="-System" Path=""/>
     <HotDir Name=".themes" Path="~/.themes"/>
     <HotDir Name="extensions" Path="~/.local/share/gnome-shell/extensions"/>
-    <HotDir Name="extensions" Path="/home/om/.local/share/gnome-shell/extensions/"/>
+    <HotDir Name="extensions" Path="/home/om/.local/share/gnome-shell/extensions"/>
     <HotDir Name=".config" Path="~/.config"/>
     <HotDir Name="extensions" Path="/usr/share/gnome-shell/extensions"/>
     <HotDir Name="applications" Path="~/.local/share/applications"/>
