@@ -98,11 +98,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# tab title
-#PROMPT_COMMAND='echo -en "\033]0; $("pwd") \a"'
-
-xmodmap ~/.Xmodmap
-
 eval "$(fzf --bash)"
 
 export PATH=$HOME/.local/bin:/usr/bin:$PATH
