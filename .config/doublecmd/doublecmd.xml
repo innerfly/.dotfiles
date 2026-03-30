@@ -188,11 +188,11 @@
   <MainWindow>
     <Position Save="True">
       <Left>740</Left>
-      <Top>618</Top>
+      <Top>1391</Top>
       <Width>1634</Width>
       <Height>822</Height>
       <PixelsPerInch>96</PixelsPerInch>
-      <Maximized>False</Maximized>
+      <Maximized>True</Maximized>
       <Splitter>50</Splitter>
     </Position>
   </MainWindow>
