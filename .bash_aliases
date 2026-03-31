@@ -26,19 +26,21 @@ alias dbl='doublecmd'
 alias w='curl wttr.in'
 alias wk='curl wttr.in/kimry'
 alias m='micro'
-alias n='nvim'
-alias ws='webstorm'
 
-alias yt='cd ~/Yandex.Disk/_media/ && yt-dlp -f 140'
-alias ytd='yt-dlp --format bestaudio --extract-audio --audio-format mp3 \
-    -o "$YD/_media/%(title)s [%(id)s].%(ext)s" \
+alias yt='yt-dlp \
+    --proxy "$PROXY" \
+    --format bestaudio \
+    --extract-audio \
+    --audio-format mp3 \
+    --audio-quality 0 \
+    --output "$YD/_media/%(title)s [%(id)s].%(ext)s" \
     --cookies-from-browser chrome'
 
 # package
 alias i='paru -S'
 alias r='paru -Rcs'
 alias u='paru -Syu'
-alias up='all_proxy=$PROXY_HTTP ALL_PROXY=$PROXY_HTTP paru -Syu'
+
 alias yp='paru -Qq > $YD/config/packages_$(hostname -s).txt \
     && cp $HOME/.env $YD/config/ \
     && cp -r $HOME/.ssh $YD/config/ \
