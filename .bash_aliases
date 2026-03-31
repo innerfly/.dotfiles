@@ -80,7 +80,7 @@ alias oc='opencode'
 alias gem='gemini'
 alias pxt='cd ~/Projects/proxy-health-checker/ && go run main.go && cd -'
 
-# 
+# gm
 alias dcw='dce backend bash'
 alias dcf='dce frontend bash'
 alias dct='dce backend vendor/bin/codecept run -d'
