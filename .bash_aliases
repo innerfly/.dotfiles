@@ -43,6 +43,7 @@ alias u='paru -Syu'
 
 alias yp='paru -Qq > $YD/config/packages_$(hostname -s).txt \
     && cp $HOME/.env $YD/config/ \
+    && cp $HOME/.config/zed/*.json $YD/config/zed/ \
     && cp -r $HOME/.ssh $YD/config/ \
     && yadm commit -a -m "Update: $(date +\"%Y-%m-%d\ %H:%M:%S\")" \
     && yadm push \
