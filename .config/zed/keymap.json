@@ -118,32 +118,5 @@
     "unbind": {
       "ctrl-shift-a": "command_palette::Toggle"
     }
-  },
-  {
-    "context": "Workspace",
-    "bindings": {
-      "alt-2": "workspace::ToggleRightDock"
-    }
-  },
-  {
-    "context": "Workspace",
-    "unbind": {
-      "ctrl-alt-b": "workspace::ToggleRightDock"
-    }
-  },
-  {
-    "context": "Workspace",
-    "unbind": {
-      "alt-2": [
-        "workspace::ActivatePane",
-        1
-      ]
-    }
-  },
-  {
-    "context": "Pane",
-    "unbind": {
-      "alt-2": null
-    }
   }
 ]
