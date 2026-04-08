@@ -189,10 +189,10 @@
     <Position Save="True">
       <Left>740</Left>
       <Top>1391</Top>
-      <Width>1634</Width>
-      <Height>822</Height>
+      <Width>1632</Width>
+      <Height>820</Height>
       <PixelsPerInch>96</PixelsPerInch>
-      <Maximized>True</Maximized>
+      <Maximized>False</Maximized>
       <Splitter>50</Splitter>
     </Position>
   </MainWindow>

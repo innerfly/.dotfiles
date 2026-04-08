@@ -28,7 +28,7 @@ alias wk='curl wttr.in/kimry'
 alias m='micro'
 
 alias yt='yt-dlp \
-    --proxy "$PROXY" \
+    --proxy "$PX" \
     --format bestaudio \
     --extract-audio \
     --audio-format mp3 \
