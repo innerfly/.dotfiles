@@ -78,7 +78,7 @@ alias open='nautilus'
 alias clip='xclip -selection clipboard <'
 alias bt='btop'
 alias oc='opencode'
-alias gem='gemini'
+alias gem='HTTPS_PROXY="$PX" gemini'
 alias pxt='cd ~/Projects/proxy-health-checker/ && go run main.go && cd -'
 
 # gm
