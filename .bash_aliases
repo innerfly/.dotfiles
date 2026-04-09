@@ -100,3 +100,12 @@ alias 2fa-binance='oathtool -b --totp "$OTP_BINANCE" | xclip -selection clipboar
 alias 2fa-gosuslugi='oathtool -b --totp "$OTP_GOSUSLUGI" | xclip -selection clipboard'
 alias 2fa-sklad='oathtool -b --totp "$OTP_SKLAD" | xclip -selection clipboard'
 alias 2fa-flexcard='oathtool -b --totp "$OTP_FLEXCARD" | xclip -selection clipboard'
+
+kitty() {
+    if [[ "$1" == "themes" ]]; then
+        shift
+        command kitty +kitten themes --cache-age -1 "$@"
+    else
+        command kitty "$@"
+    fi
+}
