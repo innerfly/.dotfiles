@@ -187,8 +187,8 @@
   </Toolbars>
   <MainWindow>
     <Position Save="True">
-      <Left>740</Left>
-      <Top>1391</Top>
+      <Left>-11</Left>
+      <Top>-49</Top>
       <Width>1632</Width>
       <Height>820</Height>
       <PixelsPerInch>96</PixelsPerInch>
